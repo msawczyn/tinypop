@@ -1,0 +1,138 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.62-alpha">
+  <PropertyGroup>
+    <StartupCommand>set BROWSER=none&amp;&amp;npm start</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <!-- Command to run on project build -->
+    <BuildCommand>
+       npm start
+    </BuildCommand>
+    <!-- Command to create an optimized build of the project that's ready for publishing -->
+    <ProductionBuildCommand>npm run build</ProductionBuildCommand>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\build</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <TypeScriptConfiguration Remove="_ReSharper.Caches\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\~Mutex" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\XmlIndex\mscorlib.xml\3A729B7B.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\RecentlyViewedMethods\RecentlyViewedMethods.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\FileDependencies\4\7db76cbe.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\FileDependencies\.version" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\FileDependencies\.crc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\ExternalFiles\javascript.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\MANIFEST-000002" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\LOG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\LOCK" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\CURRENT" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000124.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000123.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000122.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000121.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000120.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000119.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000118.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000117.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000116.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000115.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000114.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000113.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000112.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000094.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000093.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000092.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\Db\000044.ldb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\CppWords\.version" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\CppWords\.crc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\CppSourceFileToAllSymbolTables\.version" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\CppSourceFileToAllSymbolTables\.crc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\CppIncludees\.version" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\CppIncludees\.crc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\CppFileToSymbolTables\.version" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\CppFileToSymbolTables\.crc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\BuildScriptCache\.version" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\BuildScriptCache\.crc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="_ReSharper.Caches\ReSharperPlatformVs17223_e1dc452e.tinypop.00\AssemblyResolutionCache11.dat" />
+  </ItemGroup>
+</Project>

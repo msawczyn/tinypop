@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "src/theme/variables.css",
+    "inputFile": "src/theme/variables.scss"
+  },
+  {
+    "outputFile": "src/pages/Home.css",
+    "inputFile": "src/pages/Home.scss"
+  }
+]

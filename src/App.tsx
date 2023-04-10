@@ -1,26 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+   BrowserRouter,
+   Routes,
+   Route,
+} from "react-router-dom";
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import Shop from './pages/Shop';
+import Contact from './pages/Contact';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import 'reset-css';
+import './theme/variables.css';
+
+const App = () => {
+   const navigation = {
+      brand: { image: "/logo192.png", to: "/" },
+      links: [
+         { name: "Home", to: "/" },
+         { name: "Portfolio", to: "/portfolio" },
+         { name: "Shop", to: "/shop" },
+         { name: "Contact", to: "/contact" }
+      ]
+   }
+
+   return (
+      <div className="app">
+         <BrowserRouter>
+            <Header />
+            <Navbar />
+            <Routes>
+               <Route path="/" element={<Home />} />
+               <Route path="/Portfolio" element={<Portfolio />} />
+               <Route path="/Shop" element={<Shop />} />
+               <Route path="/Contact" element={<Contact />} />
+            </Routes>
+            <Footer/>
+         </BrowserRouter>
+      </div>
+   );
+};
 
 export default App;
