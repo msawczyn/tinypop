@@ -13,10 +13,10 @@ const Gallery = () => {
       >
          <ButtonBack>Prev</ButtonBack>
          <Slider>
-            <Slide index={0}><img src="../assets/image1.png" /></Slide>
-            <Slide index={1}><img src="../assets/image2.png" /></Slide>
-            <Slide index={2}><img src="../assets/image3.png" /></Slide>
-            <Slide index={3}><img src="../assets/image4.png" /></Slide>
+            <Slide index={0}><img src="../assets/image1.png" alt="Image 1" /></Slide>
+            <Slide index={1}><img src="../assets/image2.png" alt="Image 2" /></Slide>
+            <Slide index={2}><img src="../assets/image3.png" alt="Image 3" /></Slide>
+            <Slide index={3}><img src="../assets/image4.png" alt="Image 4" /></Slide>
          </Slider>
          <ButtonNext>Next</ButtonNext>
       </CarouselProvider>

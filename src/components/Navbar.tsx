@@ -4,7 +4,7 @@ const Navbar = () => {
 
    return (
       <nav className="navbar-container">
-         <NavLink to="/"><img src="../images/logo192.png" /></NavLink>
+         <NavLink to="/"><img src="../images/logo192.png" alt="TinyPop" /></NavLink>
          <div className="menu">
          <NavLink to="/">Home</NavLink>
          <NavLink to="/portfolio">Portfolio</NavLink>

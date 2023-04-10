@@ -15,16 +15,6 @@ import 'reset-css';
 import './theme/variables.css';
 
 const App = () => {
-   const navigation = {
-      brand: { image: "/logo192.png", to: "/" },
-      links: [
-         { name: "Home", to: "/" },
-         { name: "Portfolio", to: "/portfolio" },
-         { name: "Shop", to: "/shop" },
-         { name: "Contact", to: "/contact" }
-      ]
-   }
-
    return (
       <div className="app">
          <BrowserRouter>
