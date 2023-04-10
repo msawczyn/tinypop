@@ -1,12 +1,7 @@
 import React from 'react';
 
 
-interface HeaderProps {
-   title?: string;
-}
-
-const Header = (props: HeaderProps) => {
-    const { title } = props;
+const Header = () => {
     return (
        <div className="header">&nbsp;</div>
        );
