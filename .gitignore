@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/.vs/tinypop/FileContentIndex
+/.vs/tinypop
+/_ReSharper.Caches/ReSharperPlatformVs17223_e1dc452e.tinypop.00
